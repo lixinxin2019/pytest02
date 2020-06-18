@@ -1,0 +1,4 @@
+{
+  "test_calculator.py::TestCal::test_div3": true,
+  "test_calculator.py::TestCal::test_div4": true
+}
