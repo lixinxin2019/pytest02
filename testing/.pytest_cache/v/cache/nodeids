@@ -27,5 +27,18 @@
   "test_calculator.py::TestCal::test_add1[1000-1000-2000]",
   "test_calculator.py::TestCal::test_add1[0.1-0.1-0.2]",
   "test_calculator.py::TestCal::test_add1[1000-2000-3000]",
-  "test_calculator.py::TestCal::test_add1[-1-2-1]"
+  "test_calculator.py::TestCal::test_add1[-1-2-1]",
+  "test_calculator2.py::TestCal::test_add1[1-1-2]",
+  "test_calculator2.py::TestCal::test_add1[0.1-0.1-0.2]",
+  "test_calculator2.py::TestCal::test_add1[-1--1--2]",
+  "test_calculator2.py::TestCal::test_add1[0-0-0]",
+  "test_calculator2.py::TestCal::test_add1[1000-2000-3000]",
+  "test_calculator2.py::TestCal::test_add1[-1-2-1]",
+  "test_calculator2.py::TestCal::test_sub1",
+  "test_calculator2.py::TestCal::test_mul1",
+  "test_calculator2.py::TestCal::test_div1",
+  "test_calculator2.py::TestCal::test_add1[\\u6574\\u6570]",
+  "test_calculator2.py::TestCal::test_add1[\\u6d6e\\u70b9\\u6570]",
+  "test_calculator2.py::TestCal::test_add1[\\u8d1f\\u6570]",
+  "test_b.py::test_b"
 ]

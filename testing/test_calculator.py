@@ -30,7 +30,6 @@ class TestCal:
     #     assert -2 == cal.add(-3, 1)
     #
     # 测试减法
-    # @pytest.mark.first
     # def test_sub1(self):
     #     assert 0 == cal.sub(1, 1)
 
