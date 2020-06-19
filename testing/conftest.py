@@ -26,8 +26,6 @@ def cmdoption(request):
             print(datas)
 
 
-
-
 # @pytest.fixture(scope="session", autouse=True)
 # def login():
 #     print("开始计算")
@@ -41,9 +39,9 @@ def cmdoption(request):
 def pytest_collection_modifyitems(session: "Session", config: "Config", items: List["Item"]) -> None:
     # 将测试用例顺序反转后执行
     items.reverse()
-    # for item in items:
-    #     item.name = item.name.encode('utf-8').decode('unicode-escape')
-    #     item._nodeid = item.nodeid.encode('utf-8').decode('unicode-escape')
+    for item in items:
+        item.name = item.name.encode('utf-8').decode('unicode-escape')
+        item._nodeid = item.nodeid.encode('utf-8').decode('unicode-escape')
     #
     #       if 'add' in item.nodeid:
     #         item.add_marker(pytest.mark.add)
